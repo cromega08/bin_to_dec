@@ -27,7 +27,7 @@ defmodule App do
 			String.length(bin) > 0 and String.length(bin) < 8 ->
 
 				dec = String.to_integer(bin, 2)
-		  		IO.puts("Decimal: #{dec}\n")
+		  		IO.puts("Decimal: #{dec}")
 
 			true -> IO.puts("\nSomething went wrong\n")
 		end
